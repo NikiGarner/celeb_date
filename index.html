@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Which celebrity you should date</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Which celebrity you should date</h1>
+
+      <p>Answer the following questions to be matched</p>
+      <p>Are you attracting to men or women?</p>
+      <form id="date">
+        <label for="gender">Gender</label>
+        <select id="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+      <p>What's your type?</p>
+        <label for="hair">Hair</label>
+        <select id="hair">
+          <option value="blonde">Blonde</option>
+          <option value="red">Red</option>
+          <option value="brunette">Brunette</option>
+        </select>
+
+        <button type="submit" class="btn">Find my celebrity date</button>
+      </form>
+
+      <div id="your-celebrity">
+
+      </div>
+
+        <p>You should date<span id="match"></span></p>
+        <div id="ryan">
+          <p>You were matched with Ryan Gosling! </p>
+          <img src ="img/ryan.jpeg">
+        </div>
+        <div id="tim">
+          <p>You were matched with Tim Riggins!</p>
+          <img src ="img/tim.jpg">
+        </div>
+        <div id="carrot">
+          <p>Sorry, you were matched with Carrot Top...</p>
+          <img src ="img/carrot.jpg">
+        </div>
+        <div id="jennifer">
+          <p>You were matched with Jennifer Lawrence!</p>
+          <img src ="img/jennifer.jpg">
+        </div>
+        <div id="emmaw">
+          <p>You were matched with Emma Watson!</p>
+          <img src ="img/emmaw.jpg">
+        </div>
+        <div id="emmas">
+          <p>You were matched with Emma Stone!</p>
+          <img src ="img/emmas.jpg">
+        </div>
+
+
+      </div>
+    </div>
+  </body>
+</html>

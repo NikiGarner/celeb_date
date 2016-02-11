@@ -1,0 +1,23 @@
+#ryan, #tim, #carrot, #jennifer, #emmaw, #emmas {
+  display: none;
+}
+
+#jennifer img{
+  width: 300px;
+  height: auto;
+}
+
+#emmas img{
+  width: 400px;
+  height: auto;
+}
+
+#emmaw img {
+  width: 300px;
+  height: auto;
+}
+
+#carrot img{
+  width: 400px;
+  height: auto;
+}
